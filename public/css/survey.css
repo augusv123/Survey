@@ -1,0 +1,541 @@
+.wholeview{
+    height: 100vh;
+}
+
+
+.header-filter::before {
+    /* background-color: rgba(35, 62, 123, 0.26) !important; */
+    background-color: rgba(35, 62, 123, 0.38) !important;
+  
+}
+
+.form-control{
+    border: solid;
+    border-width: 1px;
+    background-image: none;
+    background-color: #ffffeb96;
+    
+}
+ .black{
+color: black;
+}
+ .required:after { 
+   content:"*";
+   color:red;
+}
+.gpvcolor{
+    color: #173D6A;
+    font-weight: 400;
+}
+.mainpage{
+    background-image: url('../img/backgrounds/mainBG.jpg');  
+    background-attachment: fixed;
+    
+}
+.cuponpage{
+    background-image: url('../img/backgrounds/cupon.jpg');  
+    background-attachment: fixed;
+    
+}
+.fondopiero{
+    background-color: #1c375b;
+}
+.colorpiero{
+    color: #1c375b !important;
+    
+}
+.inputcupon{
+    width: 100%;
+    border: solid;
+    border-width: 2px;
+    border-color:#1c375b;
+    border-radius: 5px;
+    background-color: #e6e7e9;
+}
+.inputcodigomail{
+  width: 100%;
+  border: solid;
+  border-width: 2px;
+  border-color:#1c375b;
+  border-radius: 5px;
+  background-color: #e6e7e9;
+}
+.btnprimario{
+    background-color: transparent;
+                                                    color: #1c375b;
+                                                    border: solid 4px;
+                                                    border-radius: 0;
+                                                   
+                                                    font-size: 20px;
+                                                    font-weight: 600;     font-family: Gotham-Bold;
+}
+.btnsecundario{
+    background-color: transparent;
+    color: #ffff;
+    border: solid 4px;
+    border-radius: 0;
+   
+  
+    font-weight: 600;     font-family: Gotham-Bold;
+
+}
+.progressbar li{
+  font-family: calibri;
+  font-size: 24px;
+
+
+}
+
+
+/* .progressbar {
+    counter-reset: step;
+    
+}
+.progressbar li {
+    list-style-type: none;
+    width: 25%;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffff;
+}
+.progressbar li:before {
+    width: 30px;
+    height: 30px;
+    content: counter(step);
+    counter-increment: step;
+    line-height: 30px;
+    border: 2px solid #1c375b;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: #1c375b;
+}
+.progressbar li:after {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #1c375b;
+    top: 15px;
+    left: -50%;
+    z-index: -1;
+}
+.progressbar li:first-child:after {
+    content: none;
+} */
+/* .progressbar li.active {
+    color: green;
+}
+.progressbar li.active:before {
+    border-color: #55b776;
+} */
+/* .progressbar li.active + li:after {
+    background-color: #55b776;
+} */
+.invalid-feedback {
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+#overlay  {
+  background: #ffffff;
+  color: #666666;
+  /* position: fixed; */
+  height: 100%;
+  width: 100%;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  float: left;
+  text-align: center;
+  /* padding: 25%; */
+}
+#overlayGenerar  {
+  background: #ffffff;
+  color: #666666;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  /* float: left; */
+  text-align: center;
+  padding: 25%;
+  opacity: 0.7;
+}
+#overlayCodigomail{
+
+
+  text-align: center;
+
+}
+.progressbar {
+    counter-reset: step;
+    
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li {
+    padding-bottom: 40px;
+    position:relative;
+    font-weight: 500;
+      color: #1c375b;
+      font-size: 15px;
+  }
+  
+  ul li span {
+    border-radius: 50%;
+    border: 1px solid #1c375b;
+    padding: 3px 10px;
+    margin-right: 10px;
+    background:#1c375b;
+   
+  }
+  ul li span:before{
+  
+    content:'';
+    position:absolute;
+    color: white;
+    border-left:2px solid #1c375b;
+    left:14px;
+    bottom:0;
+    z-index:-1;
+    height:100%
+  }
+ 
+  
+  ul li:last-child span:before{
+   content:none;
+  }
+  ul li:last-child{
+    padding-bottom:0
+  }
+  .tituloabout{
+    font-family: gotham-black;
+      font-size: 44px;
+      font-weight: 600;
+      color: #1c375b;
+  }
+  .paso{
+      font-weight: 600;
+      color: #1c375b;
+      font-size: 20px;
+  }
+
+.paginaprincipal {
+
+    z-index: 2;
+    position: relative;
+}
+.slogan {
+  border: 7px solid white;
+  display: inline-block;
+  /* max-width: 250px; */
+  padding: 0.2em;
+  word-break: break-all; /* optional */
+  color:white;
+  font-family: gotham-black;
+  /* padding: 0.5em; */
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: keep-all;
+}
+.subtittle{
+  font-family:calibri; font-size:33px; color:#ffff;     line-height: 1.2em;
+  margin-bottom: 1em;
+}
+.contact{
+  color:#1c375b; font-size: 3em;     border: solid 6px;
+                                       
+                                            text-align: center; font-family:Gotham-Bold;
+}
+
+/* mediaquery para pagina principal */
+@media all and (min-width: 50px) {  .paginaprincipal   { 
+  padding-top: 10vh;
+  padding-left: auto;
+  padding-right:auto; 
+  
+  
+  } }
+
+@media all and (min-width: 800px) {  .paginaprincipal   {   
+  /* padding-top: 20vh;
+  padding-left: 10vh; */
+
+  /* nuevos cambios */
+  padding: 15vh;
+  
+ }
+
+}
+
+@media all and (min-width: 1025px) {  .paginaprincipal   {   
+  /* padding-top: 20vh;
+  padding-left: 10vh; */
+
+  /* nuevos cambios */
+  padding: 20vh;
+  
+ }
+
+}
+
+
+
+/* .labelform{
+  text-align:right;
+
+} */
+
+.pros {
+  font-size:26px; line-height:initial; font-family:calibri; 
+}
+.prosb{
+  font-size:26px; line-height:initial; font-family:calibrib; 
+
+}
+
+
+@media all and (min-width: 50px) { .cuponcard  {   width: 100%;  } }
+@media all and (min-width: 720px) { .cuponcard   {   width: 50%;  } }
+
+
+
+@media all and (min-width: 50px) {  .pros , .prosb   {   font-size:1em;  } }
+@media all and (min-width: 320px) {  .pros , .prosb   {   font-size:1em;  } }
+@media all and (min-width: 350px) {  .pros , .prosb   {   font-size:1.2em;  } }
+@media all and (min-width: 900px) {  .pros , .prosb   {   font-size:1.5em;  } }
+@media all and (min-width: 1023px) {  .pros , .prosb   {   font-size:1.4em;  } }
+@media all and (min-width: 1366px) {  .pros , .prosb   {   font-size:1.5em;  } }
+
+
+
+
+@media all and (max-width: 500px) {  .labelform   {   text-align: left;  } }
+
+.progressbar {
+  padding: 0;
+  line-height: 1.3;
+}
+@media all and (max-width: 500px) {  .tituloabout   {   text-align: center;  } }
+
+/* aca va el css de los logos  */
+
+@media all and (min-width: 50px) { 
+  .logo{
+    margin-top: -5px !important;
+    width: 120px;
+    height: auto;
+  
+  }
+  
+
+  }
+ 
+
+
+
+@media all and (min-width: 530px) { 
+  .logo{
+    margin-top: -5px !important;
+    width: 120px;
+  
+    height: auto;
+  
+  }
+  
+
+  }
+
+  @media all and (min-width: 501px) { 
+    .logo{
+      margin-top: -5px !important;
+    width: 220px;
+     
+      height: auto;
+      
+    }
+  
+    }
+    
+  @media all and (min-width: 800px) { 
+    .logo{
+      margin-top: -5px !important; 
+    width: 180px;
+    
+      height: auto;
+      
+    }
+  
+    }
+
+
+
+/* mediaquery para slogan (soñar importa) */
+
+@media all and (min-width: 50px) {  .slogan   {   font-size:3.1em;  } }
+@media all and (min-width: 100px) {  .slogan   {   font-size:3.2em;  } }
+@media all and (min-width: 200px) {  .slogan   {   font-size:3.2em;  } }
+@media all and (min-width: 300px) {  .slogan   {   font-size:3.2em;  } }
+
+@media all and (min-width: 400px) {  .slogan    {   font-size:4.6em;  } }
+@media all and (min-width: 500px) {  .slogan   {   font-size:5.0em;  } }
+@media all and (min-width: 600px) {  .slogan   {   font-size:6.2em;  } }
+@media all and (min-width: 700px) {  .slogan   {   font-size:6.4em;  } }
+@media all and (min-width: 800px) {  .slogan   {   font-size:6.6em;  } }
+@media all and (min-width: 900px) {  .slogan   {   font-size:5.4em;  } }
+@media all and (min-width: 1000px) {  .slogan   { font-size:5.6em;  } }
+@media all and (min-width: 1100px) {  .slogan   { font-size:5.6em;  } }
+@media all and (min-width: 1200px) {  .slogan   { font-size:5.6em;  } }
+@media all and (min-width: 1300px) {  .slogan   { font-size:5.6em;  } }
+@media all and (min-width: 1400px) {  .slogan   { font-size:6em;  } }
+
+@media all and (min-width: 1500px) {  .slogan   { font-size:6.2em;  } }
+@media all and (min-width: 1600px) {  .slogan   { font-size:8.4em;  } }
+@media all and (min-width: 1700px) {  .slogan   { font-size:9em;  } } 
+
+/* aca van las media query para el subtitulo */
+@media all and (min-width: 50px) {  .subtittle   {   font-size:1em;  } }
+@media all and (min-width: 100px) {  .subtittle   {   font-size:1em;  } }
+@media all and (min-width: 200px) {  .subtittle   {   font-size:1em;  } }
+@media all and (min-width: 300px) {  .subtittle   {   font-size:1em;  } }
+@media all and (min-width: 400px) {  .subtittle    {   font-size:1.5em;  } }
+@media all and (min-width: 500px) {  .subtittle   {   font-size:1.5em;  } }
+@media all and (min-width: 600px) {  .subtittle   {   font-size:1.5em;  } }
+@media all and (min-width: 700px) {  .subtittle   {   font-size:1.5em;  } }
+@media all and (min-width: 800px) {  .subtittle   {   font-size:1.6em;  } }
+@media all and (min-width: 900px) {  .subtittle   {   font-size:1.6em;  } }
+@media all and (min-width: 1000px) {  .subtittle   { font-size:1.6em;  } }
+@media all and (min-width: 1100px) {  .subtittle   { font-size:1.6em;  } }
+@media all and (min-width: 1200px) {  .subtittle   { font-size:1.7em;  } }
+@media all and (min-width: 1300px) {  .subtittle   { font-size:1.7em;  } }
+@media all and (min-width: 1400px) {  .subtittle   { font-size:2em;  } }
+
+@media all and (min-width: 1500px) {  .subtittle   { font-size:2em;  } }
+@media all and (min-width: 1600px) {  .subtittle   { font-size:2em;  } }
+@media all and (min-width: 1700px) {  .subtittle   { font-size:2.5em;  } } 
+
+
+ /* aca van las media query para el contacto */
+ 
+ @media all and (min-width: 50px) {  .contact   {   font-size:1em;  } }
+ @media all and (min-width: 320px) {  .contact   {   font-size:1.3em;  } }
+ @media all and (min-width: 350px) {  .contact   {   font-size:1.5em;  } }
+ @media all and (min-width: 900px) {  .contact   {   font-size:2.5em;  } }
+ @media all and (min-width: 1023px) {  .contact   {   font-size:2.5em;  } }
+ @media all and (min-width: 1366px) {  .contact   {   font-size:3em;  } }
+
+/* media querys para el btnsecundario (generar codigo y ver descuentos)
+ */
+ @media all and (min-width: 50px) {  .btnsecundario {   font-size:0.5em;  } }
+ @media all and (min-width: 320px) {  .btnsecundario  {   font-size:0.6em;  } }
+ @media all and (min-width: 350px) {  .btnsecundario {   font-size:0.8em;  } }
+ @media all and (min-width: 900px) {  .btnsecundario  {   font-size:1.1em;  } }
+ @media all and (min-width: 1023px) {  .btnsecundario {   font-size:1.1em;  } }
+ @media all and (min-width: 1366px) {  .btnsecundario  {   font-size:1.1em;  } }
+ @media all and (min-width: 1400px) {  .btnsecundario  {   font-size:1.1em;  } }
+
+ /* mediaquery de imagenes marcas */
+ @media all and (min-width: 50px) {  .marca {   width:100%;  } }
+ @media all and (min-width: 320px) { .marca   {    width:100%;  } }
+ @media all and (min-width: 1400px) {  .marca  {    width:100%;  } }
+
+
+ .separador{
+  width: 42px;
+}
+
+@media all and (min-width: 50px) {  .separador   {    width: 25px;  } }
+@media all and (min-width: 780px) {  .separador   {    width: 40px; } }
+
+@media all and (max-width: 767px) {  .logos   {       display: flex;
+  justify-content: center !important; } }
+
+
+
+
+  @font-face {
+    font-family: calibri;
+    src: url(fonts/calibri.ttf);
+  }
+  @font-face {
+    font-family: calibriz;
+    src: url(fonts/calibriz.ttf);
+  }
+
+  @font-face {
+    font-family: calibrib;
+    src: url(fonts/calibrib.ttf);
+  }
+  @font-face {
+    font-family: calibrii;
+    src: url(fonts/calibrii.ttf);
+  }
+  @font-face {
+    font-family: Gotham-Black;
+    src: url(fonts/Gotham-Black.otf);
+  }
+  @font-face {
+    font-family: Gotham-Bold;
+    src: url(fonts/Gotham-Bold.otf);
+  }
+
+  @font-face {
+    font-family: Gotham-BlackIta;
+    src: url(fonts/Gotham-BlackIta.otf);
+  }
+  @font-face {
+    font-family: Gotham-XLight;
+    src: url(fonts/Gotham-XLight.otf);
+  }
+  .page-header{
+    height: auto !important;
+  }
+  .cuponReferido{
+    background-color: antiquewhite;
+
+  }
+  .cuponNoReferido{
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+
+  }
+
+  .arrowSliding {
+    -webkit-animation: slide 1s linear infinite; 
+            animation: slide 1s linear infinite;
+  }
+  
+  .delay1 {
+    -webkit-animation-delay: 1s; 
+      animation-delay: 1s;
+  }
+  .delay2 {
+    -webkit-animation-delay: 1.2s; 
+      animation-delay: 1.2s;
+  }
+  .delay3 {
+    -webkit-animation-delay: 1.3s; 
+      animation-delay: 1.3s;
+  }
+  
+  @-webkit-keyframes slide {
+      0% { opacity:0; transform: translateY(-0.5vw); }  
+     20% { opacity:1; transform: translateY(-0.3vw); }   
+     80% { opacity:1; transform: translateY(0.5vw); }  
+    100% { opacity:0; transform: translateY(0.3vw); } 
+  }
+  @keyframes slide {
+      0% { opacity:0; transform: translateY(-0.5vw); }  
+     20% { opacity:1; transform: translateY(-0.3vw); }   
+     80% { opacity:1; transform: translateY(0.5vw); }  
+    100% { opacity:0; transform: translateY(0.3vw); } 
+  }
